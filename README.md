@@ -1,21 +1,31 @@
-# Minecraft 26.3 — Base Completa Corrigida
+# Minecraft 26.3 — Base Completa com Lava
 
-[Baixar o mundo completo corrigido (ZIP, aproximadamente 3,7 MB)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Corrigida.zip)
+[Baixar o mundo completo com farm de lava (ZIP)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Lava.zip)
 
-Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, armazenamento, caminhos iluminados e quatro farms de comida. Há **100 frangos assados e 100 lingotes de ferro** nos baús sinalizados dentro da casa.
+Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, armazenamento, caminhos iluminados e quatro farms de comida. Há **100 frangos assados e 100 lingotes de ferro** nos baús sinalizados dentro da casa. A nova casa de combustível contém 45 caldeirões que circulam por pistões sob as estalactites, com uma cabine iluminada para coletar lava. O ejetor da farm de galinha começa com **144 ovos: nove pilhas de 16**.
 
 - **Galinhas:** câmara 1×1 sobre a laje e diretamente sob a lava. O datapack incluído mantém os pintinhos dessa farm imóveis e protegidos do fogo até crescer; nas adultas, o comportamento normal volta e a proteção sai. Os itens reais são mantidos junto dos funis para não queimarem antes de chegar ao baú.
 - **Cenoura e batata:** fazendeiros colhem, replantam e compartilham os excedentes; coletores encaminham os itens aos baús.
 - **Trigo:** fazendeiro colhe e replanta; coletores sob a plantação levam o trigo ao baú da escada.
 - **Ferro:** farm automática com cinco aldeões protegidos e camas, sem zumbi.
 
+## Usando a farm de lava
+
+Siga a ponte a oeste da base até a casa de combustível. Entre pela porta de ferro usando o botão e vá à cabine de coleta.
+
+1. Pegue os 16 baldes vazios no baú da cabine e deixe espaço no inventário.
+2. Desligue a alavanca **PAUSAR A FARM**: os caldeirões começam a circular. Alavanca ligada pausa a farm; espere alguns segundos até os pistões terminarem a sequência.
+3. Fique no tapete amarelo e use o balde no caldeirão cheio que passar pela janela. Guarde os baldes cheios no baú duplo.
+
+O enchimento por estalactites e o transporte são automáticos. A coleta com o balde é feita pelo jogador. Os 45 caldeirões começam cheios para a primeira coleta; depois voltam a encher gradualmente enquanto a região estiver carregada. A farm é entregue pausada, com porta de ferro, iluminação, cobertura e cabine separada do mecanismo. Não quebre as fontes de lava ou o circuito sob o piso.
+
 ## Instalação
 
 A correção da farm já está incluída e ativada no mundo completo. Basta copiar o save e abrir o jogo.
 
 1. Baixe e extraia o ZIP.
-2. Copie a pasta `Base_Completa_26_3_Corrigida`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
-3. Abra seu perfil Forge 26.3 e selecione **Base Completa Corrigida - Casa e Farms** em **Um jogador**.
+2. Copie a pasta `Base_Completa_26_3_Lava`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
+3. Abra seu perfil Forge 26.3 e selecione **Base Completa - Lava e Farms** em **Um jogador**.
 
 Esta versão é uma cópia separada: não atualiza automaticamente um save no qual você já jogou. **Preserve o mundo anterior para manter seu progresso.**
 
@@ -27,6 +37,10 @@ O mundo usa blocos, entidades e datapack vanilla e foi testado no servidor ofici
 
 | Local | X | Y | Z |
 | --- | ---: | ---: | ---: |
+| Entrada da casa de lava | -800 | 64 | -318 |
+| Tapete para coletar lava | -810 | 64 | -312 |
+| Alavanca de pausa | -818 | 64 | -319 |
+| Baú de baldes vazios | -812 | 64 | -308 |
 | Início | -768 | 64 | -316 |
 | Porta da casa | -768 | 64 | -312 |
 | Reserva de 100 frangos assados | -764 | 64 | -297 |
@@ -41,6 +55,8 @@ Fique perto da base para manter as farms carregadas. Preserve aldeões, composte
 
 ## Validação
 
+A esteira foi testada em quatro voltas manuais, com conferência de cada empurrão, e em nove testes automáticos de partida e pausa. Um caldeirão marcado chegou à janela de coleta. Em 30.000 ticks naturais, 30 caldeirões encheram; os caldeirões cheios mantiveram a lava durante o transporte. A casa foi conferida após atualizar a iluminação: nenhuma das 348 posições de piso livre ficou sem luz. O mundo foi salvo e reaberto, e o circuito voltou a circular sem precisar de um novo pulso manual. Uma carga de 144 ovos foi consumida durante o teste e produziu frango assado; os nove slots foram reabastecidos antes da entrega.
+
 Quatro dias do jogo confirmaram crescimento, colheita, replantio e produção de frango assado, cenoura, batata e trigo nos respectivos baús. Os pintinhos acompanhados ficaram saudáveis. Após ajustar a altura das camas e as passagens, dois dias adicionais não registraram solo pisoteado. Todos os fazendeiros e os cinco aldeões da farm de ferro permaneceram com vida completa. Os estoques da casa foram conferidos: 100 frangos assados e 100 lingotes.
 
 A versão completa corrigida também foi salva e reaberta: o datapack continuou ativo e entregou frango assado no baú. As reservas de 100 frangos e 100 lingotes foram conferidas novamente.
@@ -48,6 +64,8 @@ A versão completa corrigida também foi salva e reaberta: o datapack continuou 
 Sobrevivência, dificuldade normal, comandos desativados. Seed: `2751751648501333327`. Instruções completas no `LEIA-ME.txt` dentro do ZIP.
 
 ## Versões anteriores
+
+- [Base Completa Corrigida, sem a farm de lava](mapas/Mapa_Minecraft_26.3_Base_Completa_Corrigida.zip)
 
 - [Base Completa anterior à correção da farm](mapas/Mapa_Minecraft_26.3_Base_Completa.zip)
 
