@@ -47,3 +47,20 @@ Sobrevivência, dificuldade normal, comandos desativados. Seed: `275175164850133
 
 - [Começo com Farms — frango assado](mapas/Mapa_Minecraft_26.3_Frango_Assado.zip)
 - [Começo com Farms — abate manual](mapas/Mapa_Minecraft_26.3.zip)
+
+## Correção da farm de galinhas no save atual
+
+[Baixar o corretor (datapack, 4 KB)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/correcoes/Correcao_Galinhas_26.3_Protegida.zip)
+
+O corretor fecha a área lateral e mantém as aves numa câmara 1×1 sob a lava. Os pintinhos dessa farm ficam imóveis e resistentes ao fogo até crescer; as adultas recuperam o comportamento normal, perdem a proteção e são cozidas. Os itens reais produzidos são mantidos junto dos funis para não queimarem antes da coleta. Não cria comida por comandos.
+
+1. Faça uma cópia de segurança do seu mundo e feche o jogo.
+2. Copie o ZIP **sem extrair** para a pasta `datapacks` dentro do seu mundo atual.
+3. Abra esse mundo e fique perto da farm original (`X=-782 Y=65 Z=-320`). Ative comandos em **ESC → Abrir para LAN → Permitir comandos**.
+4. Execute `/reload` e depois `/function base_galinhas:aplicar`.
+
+As aves que estavam na câmara vão para o galinheiro ao lado. As reprodutoras, a casa, as hortas e o inventário do jogador são preservados. O corretor continua funcionando depois de sair e reabrir o mundo; não exige mods adicionais.
+
+Antes de remover o datapack, fique perto da farm e execute `/function base_galinhas:desativar`, para restaurar o comportamento das aves gerenciadas. Depois feche o jogo e remova o ZIP. As instruções completas estão no `LEIA-ME.txt` do arquivo.
+
+Validação no servidor oficial 26.3: 8 pintinhos acompanhados até crescer, nenhuma perda prematura, todas as 8 adultas cozidas e 8 frangos assados recolhidos. Não testado com Forge ou com os mods do perfil do jogador.
