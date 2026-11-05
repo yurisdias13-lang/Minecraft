@@ -1,25 +1,27 @@
-# Minecraft 26.3 — Base Completa
+# Minecraft 26.3 — Base Completa Corrigida
 
-[Baixar a Base Completa (ZIP, aproximadamente 3,6 MB)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa.zip)
+[Baixar o mundo completo corrigido (ZIP, aproximadamente 3,7 MB)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Corrigida.zip)
 
 Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, armazenamento, caminhos iluminados e quatro farms de comida. Há **100 frangos assados e 100 lingotes de ferro** nos baús sinalizados dentro da casa.
 
-- **Galinhas:** lajes e funis comuns, sem carrinhos na câmara. Uma placa não inflamável limita a lava para proteger a área de nascimento. As adultas viram frango assado e os itens chegam ao baú automaticamente.
+- **Galinhas:** câmara 1×1 sobre a laje e diretamente sob a lava. O datapack incluído mantém os pintinhos dessa farm imóveis e protegidos do fogo até crescer; nas adultas, o comportamento normal volta e a proteção sai. Os itens reais são mantidos junto dos funis para não queimarem antes de chegar ao baú.
 - **Cenoura e batata:** fazendeiros colhem, replantam e compartilham os excedentes; coletores encaminham os itens aos baús.
 - **Trigo:** fazendeiro colhe e replanta; coletores sob a plantação levam o trigo ao baú da escada.
 - **Ferro:** farm automática com cinco aldeões protegidos e camas, sem zumbi.
 
 ## Instalação
 
+A correção da farm já está incluída e ativada no mundo completo. Basta copiar o save e abrir o jogo.
+
 1. Baixe e extraia o ZIP.
-2. Copie a pasta `Base_Completa_26_3`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
-3. Abra seu perfil Forge 26.3 e selecione **Base Completa - Casa e Farms** em **Um jogador**.
+2. Copie a pasta `Base_Completa_26_3_Corrigida`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
+3. Abra seu perfil Forge 26.3 e selecione **Base Completa Corrigida - Casa e Farms** em **Um jogador**.
 
 Esta versão é uma cópia separada: não atualiza automaticamente um save no qual você já jogou. **Preserve o mundo anterior para manter seu progresso.**
 
 Se não encontrar a pasta correta de saves, selecione um mundo no Minecraft, escolha **Editar → Abrir pasta do mundo** e volte uma pasta. Feche o jogo antes de copiar os arquivos.
 
-O mundo usa somente blocos e entidades vanilla e foi testado no servidor oficial Minecraft Java 26.3. O carregamento com Forge e os mods do seu perfil não foi testado neste ambiente. Não requer mods adicionais.
+O mundo usa blocos, entidades e datapack vanilla e foi testado no servidor oficial Minecraft Java 26.3. O carregamento com Forge e os mods do seu perfil não foi testado neste ambiente. Não requer mods adicionais.
 
 ## Onde encontrar
 
@@ -41,9 +43,13 @@ Fique perto da base para manter as farms carregadas. Preserve aldeões, composte
 
 Quatro dias do jogo confirmaram crescimento, colheita, replantio e produção de frango assado, cenoura, batata e trigo nos respectivos baús. Os pintinhos acompanhados ficaram saudáveis. Após ajustar a altura das camas e as passagens, dois dias adicionais não registraram solo pisoteado. Todos os fazendeiros e os cinco aldeões da farm de ferro permaneceram com vida completa. Os estoques da casa foram conferidos: 100 frangos assados e 100 lingotes.
 
+A versão completa corrigida também foi salva e reaberta: o datapack continuou ativo e entregou frango assado no baú. As reservas de 100 frangos e 100 lingotes foram conferidas novamente.
+
 Sobrevivência, dificuldade normal, comandos desativados. Seed: `2751751648501333327`. Instruções completas no `LEIA-ME.txt` dentro do ZIP.
 
 ## Versões anteriores
+
+- [Base Completa anterior à correção da farm](mapas/Mapa_Minecraft_26.3_Base_Completa.zip)
 
 - [Começo com Farms — frango assado](mapas/Mapa_Minecraft_26.3_Frango_Assado.zip)
 - [Começo com Farms — abate manual](mapas/Mapa_Minecraft_26.3.zip)
