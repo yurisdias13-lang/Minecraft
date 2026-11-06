@@ -1,6 +1,6 @@
-# Minecraft 26.3 — Golem e Galinha Gigantes
+# Minecraft 26.3 — Farms com esculturas compactas
 
-[Baixar o mundo completo — farms decoradas (ZIP)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Farms_Decoradas.zip)
+[Baixar o mundo completo — farms compactas (ZIP)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Farms_Compactas.zip)
 
 Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, armazenamento, caminhos iluminados e quatro farms de comida. Há **100 frangos assados e 100 lingotes de ferro** nos baús sinalizados dentro da casa. A nova casa de combustível contém 45 caldeirões que circulam por pistões sob as estalactites, com uma cabine iluminada para coletar lava. O ejetor da farm de galinha começa com **144 ovos: nove pilhas de 16**.
 
@@ -9,13 +9,13 @@ Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, arma
 - **Trigo:** fazendeiro colhe e replanta; coletores sob a plantação levam o trigo ao baú da escada.
 - **Ferro:** farm automática com cinco aldeões protegidos e camas, sem zumbi.
 
-## Farms dentro das esculturas
+## Esculturas menores
 
-A **farm de ferro fica dentro de um golem gigante**, com olhos vermelhos, detalhes de musgo, papoulas e jardins iluminados. Entre no **pé esquerdo**, em **X −736, Y 64, Z −309**, usando o botão. A coleta continua no baú original, acessível pela janela baixa dentro do pé. O tapete verde marca uma boa posição para usá-la. Há um baú de reserva no mesmo ambiente. O outro pé guarda a escada de manutenção.
+O **golem tem 17 blocos de altura**, contando a cobertura, em vez dos 55 da versão anterior. A largura caiu de 53 para 15 blocos. A parte funcional da farm de ferro foi transferida para uma sala fechada no subsolo, mantendo os mesmos cinco aldeões, camas, água e área de nascimento dos golems. Um ejetor com observadores e uma coluna de bolhas levam a produção real para o **baú da superfície em X −727, Y 64, Z −311**. A janela fica entre os pés do golem; use o baú pelo lado da casa, olhando para sul. O quadro de ferro identifica a coleta. Uma escada de manutenção fica sob o alçapão em **X −715, Y 64, Z −306**.
 
-A **farm de frango assado fica dentro de uma galinha gigante**, sobre um ninho de feno, com asas, bico e papo vermelho. O novo baú de coleta fica no balcão da frente, em **X −780, Y 63, Z −315**, identificado pelo quadro de frango assado. O estoque que já estava na produção foi preservado. Há um baú de reserva ao lado e uma porta traseira para o galinheiro comum.
+A **galinha tem 14 blocos de altura e 14 de largura**, incluindo a laje e as asas; antes tinha 22 de altura e 21 de largura. A cobertura foi ajustada ao tamanho da incubadora, sem alterar a câmara dos pintinhos, as reprodutoras ou o circuito dos ovos. O baú de frango assado continua no balcão da frente, em **X −780, Y 63, Z −315**, com um baú de reserva ao lado.
 
-Caminhos, lanternas, flores, cercas e canteiros ligam as esculturas à casa e às demais farms. O acesso à casa de lava foi desviado por um caminho ao lado do ninho.
+Os estoques foram preservados. As duas esculturas receberam bases baixas, papoulas, arbustos, lanternas e caminhos; o ninho de feno da galinha ficou menor. O caminho para a casa de lava continua aberto.
 
 ## Usando o salão quadrado
 
@@ -50,8 +50,8 @@ O enchimento por estalactites e o transporte são automáticos. A coleta com o b
 A correção da farm já está incluída e ativada no mundo completo. Basta copiar o save e abrir o jogo.
 
 1. Baixe e extraia o ZIP.
-2. Copie a pasta `Base_Completa_26_3_Farms_Decoradas`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
-3. Abra seu perfil Forge 26.3 e selecione **Base Completa - Golem e Galinha** em **Um jogador**.
+2. Copie a pasta `Base_Completa_26_3_Farms_Compactas`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
+3. Abra seu perfil Forge 26.3 e selecione **Base Completa - Farms Compactas** em **Um jogador**.
 
 Esta versão é uma cópia separada: não atualiza automaticamente um save no qual você já jogou. **Preserve o mundo anterior para manter seu progresso.**
 
@@ -76,8 +76,8 @@ O mundo usa blocos, entidades e datapack vanilla e foi testado no servidor ofici
 | Reserva de 100 frangos assados | -764 | 64 | -297 |
 | Reserva de 100 lingotes | -762 | 64 | -297 |
 | Coleta de frango assado (frente da galinha) | -780 | 63 | -315 |
-| Entrada da coleta de ferro (pé esquerdo) | -736 | 64 | -309 |
-| Coleta de ferro (janela interna) | -736 | 64 | -317 |
+| Coleta de ferro (entre os pés do golem) | -727 | 64 | -311 |
+| Alçapão de manutenção da farm de ferro | -715 | 64 | -306 |
 | Coleta de cenouras | -786 | 63 | -351 |
 | Coleta de batatas | -768 | 63 | -351 |
 | Coleta de trigo (desça a escada) | -760 | 61 | -350 |
@@ -86,11 +86,11 @@ Fique perto da base para manter as farms carregadas. Preserve aldeões, composte
 
 ## Validação
 
-As esculturas foram construídas preservando os blocos e os espaços de funcionamento das farms. O único desvio funcional foi prolongar a saída de frango até o balcão da galinha. Dois dias naturais do jogo produziram **78 novos lingotes e 30 novos frangos assados**, com todos os aldeões saudáveis. O nascimento dos golems continuou na farm original. Os baús e as portas de coleta foram conferidos.
+A farm de ferro original foi transladada nove blocos a leste e quarenta para baixo, junto dos mesmos cinco aldeões e suas memórias de cama. A farm de galinhas mantém a incubadora e o circuito originais. A coluna de bolhas foi testada com um item nomeado, que chegou intacto ao baú da superfície. Dois dias do jogo na versão compacta produziram mais **44 lingotes e 24 frangos assados**, com todos os aldeões saudáveis. Após salvar e reabrir, o relógio de observadores e a coluna de bolhas entregaram novamente um item nomeado no baú da superfície. O primeiro e o último filtro do depósito e a saída de sobras também foram conferidos. Os itens de teste foram retirados e os 144 ovos repostos.
 
 O acesso ao depósito foi inspecionado de 103 posições: a amostragem de visão não encontrou terra exposta ou componentes técnicos visíveis. Representantes dos oito grupos de armazenamento e um equipamento nomeado passaram pelo transporte e chegaram aos destinos corretos.
 
-O salão foi testado com uma amostra de cada um dos 200 tipos, pelas duas metades do baú de entrada. As duas fileiras funcionaram de forma independente. Um teste contínuo adicional separou 64 pedras, 64 pedregulhos, 16 ovos e 16 pérolas. Ferramentas encantadas e itens nomeados chegaram às sobras com seus componentes preservados. Com um destino e seu buffer cheios, 64 unidades excedentes foram encaminhadas às sobras enquanto o item vizinho foi separado normalmente; os outros 199 filtros mantiveram suas reservas. Os 200 quadros ficaram estáveis e a visão de todos eles foi conferida a partir do centro. Escada, iluminação e acesso aos baús também foram verificados. O mundo foi salvo e reaberto: o primeiro e o último filtro, as sobras e os quadros continuaram funcionando. Os itens de teste foram retirados e os 144 ovos repostos antes da entrega. O mundo foi salvo e reaberto: o primeiro e o último filtro, as sobras e os quadros continuaram funcionando. Os itens de teste foram retirados e os 144 ovos repostos antes da entrega. O mundo foi salvo e reaberto: o primeiro e o último filtro, as sobras e os quadros continuaram funcionando. Os itens de teste foram retirados e os 144 ovos repostos antes da entrega.
+O salão foi testado com uma amostra de cada um dos 200 tipos, pelas duas metades do baú de entrada. As duas fileiras funcionaram de forma independente. Um teste contínuo adicional separou 64 pedras, 64 pedregulhos, 16 ovos e 16 pérolas. Ferramentas encantadas e itens nomeados chegaram às sobras com seus componentes preservados. Com um destino e seu buffer cheios, 64 unidades excedentes foram encaminhadas às sobras enquanto o item vizinho foi separado normalmente; os outros 199 filtros mantiveram suas reservas. Os 200 quadros ficaram estáveis e a visão de todos eles foi conferida a partir do centro. Escada, iluminação e acesso aos baús também foram verificados. O mundo foi salvo e reaberto: o primeiro e o último filtro, as sobras e os quadros continuaram funcionando. Os itens de teste foram retirados e os 144 ovos repostos antes da entrega.
 
 Após a reforma das hortas, mais de um dia do jogo confirmou produção de cenouras, batatas e trigo. Os 79 canteiros de cenoura, 79 de batata e 73 de trigo permaneceram intactos; os mecanismos conservaram suas posições e todos os aldeões continuaram com vida completa. A luminosidade dos cultivos permaneceu suficiente para crescer.
 
@@ -103,6 +103,8 @@ A versão completa corrigida também foi salva e reaberta: o datapack continuou 
 Sobrevivência, dificuldade normal, comandos desativados. Seed: `2751751648501333327`. Instruções completas no `LEIA-ME.txt` dentro do ZIP.
 
 ## Versões anteriores
+
+- [Esculturas grandes, antes da redução](mapas/Mapa_Minecraft_26.3_Base_Completa_Farms_Decoradas.zip)
 
 - [Salão quadrado e hortas, antes das esculturas](mapas/Mapa_Minecraft_26.3_Base_Completa_Salao_e_Hortas.zip)
 
