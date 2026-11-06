@@ -1,6 +1,6 @@
-# Minecraft 26.3 — Base Completa com Depósito Visual
+# Minecraft 26.3 — Salão de Armazenamento e Hortas
 
-[Baixar o mundo completo com depósito visual (ZIP)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Deposito_Visual.zip)
+[Baixar o mundo completo — salão quadrado e hortas reformadas (ZIP)](https://github.com/yurisdias13-lang/Minecraft/raw/refs/heads/main/mapas/Mapa_Minecraft_26.3_Base_Completa_Salao_e_Hortas.zip)
 
 Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, armazenamento, caminhos iluminados e quatro farms de comida. Há **100 frangos assados e 100 lingotes de ferro** nos baús sinalizados dentro da casa. A nova casa de combustível contém 45 caldeirões que circulam por pistões sob as estalactites, com uma cabine iluminada para coletar lava. O ejetor da farm de galinha começa com **144 ovos: nove pilhas de 16**.
 
@@ -9,18 +9,23 @@ Mundo de sobrevivência com casa de dois andares, cozinha, quarto, varanda, arma
 - **Trigo:** fazendeiro colhe e replanta; coletores sob a plantação levam o trigo ao baú da escada.
 - **Ferro:** farm automática com cinco aldeões protegidos e camas, sem zumbi.
 
-## Usando o depósito visual
+## Usando o salão quadrado
 
-Coloque os itens no **baú duplo de entrada dentro da casa**, em **X −769, Y 64, Z −301**, identificado pelo quadro com um baú. A organização funciona sozinha enquanto você estiver perto da base.
+Coloque os itens no **baú duplo de entrada dentro da casa**, em **X −769, Y 64, Z −301**, identificado pelo quadro com um baú. O sistema distribui os itens automaticamente enquanto a base estiver carregada.
 
-- **Um único andar**, com duas galerias e **200 tipos de itens comuns**. Cada tipo mantém seu baú duplo, com armários mais estreitos para reduzir o espaço ocupado.
-- **Quadros luminosos com os próprios itens** identificam os destinos; não é preciso ler placas.
-- **Escada comum de tijolos de pedra**, com entrada em **X −770, Y 64, Z −307**. O antigo alçapão e a escada de mão foram retirados.
-- Acabamento com madeira, pedra, vigas, tapetes e lanternas, integrado aos materiais da casa. Funis e redstone ficam atrás dos armários e do teto.
-- **Correnteza e gelo azul** levam os itens pelos canais fechados. Um ejetor automático dosa a entrada para os filtros conseguirem recolher as pilhas.
-- **Três baús duplos de sobras**, no fim do corredor da escada, em **X −790, Y 48–50, Z −303**. O quadro com uma trouxa identifica esse armário. Ele recebe itens sem filtro, equipamentos, itens com componentes diferentes e excessos quando um destino estiver cheio.
+- **Salão central de 31 × 31 blocos**, com o centro aberto, piso ornamental e lanternas suspensas. Do centro (**X −764, Y 49, Z −307**), os 200 quadros ficam visíveis nas quatro paredes.
+- **200 tipos de itens**, cada um com seu baú duplo. Os armários têm duas fileiras alcançáveis do mesmo piso, sem precisar subir para abrir os baús superiores.
+- **Quadros luminosos com os próprios itens** identificam os destinos. Os mecanismos ficam atrás dos armários, com transporte por correnteza e gelo azul.
+- **Escada de pedra dentro da casa**, com entrada em **X −775, Y 64, Z −309**. Ela chega por um acesso lateral, deixando o centro do salão livre. O baú inicial de ferramentas foi preservado e reposicionado para **X −772, Y 64, Z −310**.
+- **Três baús duplos de sobras**, na parede norte, em **X −765, Y 49–51, Z −322**, identificados pelo quadro de uma trouxa. Recebem itens sem filtro, equipamentos, itens com componentes diferentes e excessos quando um destino estiver cheio.
 
-A separação é gradual. Os baús das farms continuam independentes: coloque a produção na entrada quando quiser organizá-la. Preserve os mecanismos escondidos e as reservas dos filtros. A lista completa e as coordenadas de cada destino estão em `ITENS-SEPARADOS.txt` no ZIP.
+A separação é gradual. A lista de itens e as coordenadas de cada destino estão em `ITENS-SEPARADOS.txt` no ZIP. Os baús das farms continuam independentes: coloque a produção na entrada quando quiser organizá-la.
+
+## Hortas reformadas
+
+As estufas de **cenoura, batata e trigo** receberam telhados inclinados de vidro e madeira, varandas, quadros com os cultivos, abrigos para a coleta, canteiros de flores e caminhos iluminados. Os materiais combinam com a casa e com o salão.
+
+A colheita automática pelos aldeões foi preservada, assim como os canteiros, camas, composteiras, sinos, trilhos, funis e baús de produção. As coordenadas de coleta continuam as mesmas.
 
 ## Usando a farm de lava
 
@@ -37,8 +42,8 @@ O enchimento por estalactites e o transporte são automáticos. A coleta com o b
 A correção da farm já está incluída e ativada no mundo completo. Basta copiar o save e abrir o jogo.
 
 1. Baixe e extraia o ZIP.
-2. Copie a pasta `Base_Completa_26_3_Deposito_Visual`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
-3. Abra seu perfil Forge 26.3 e selecione **Base Completa - Deposito Visual** em **Um jogador**.
+2. Copie a pasta `Base_Completa_26_3_Salao_e_Hortas`, que contém `level.dat`, para a pasta `saves` usada pelo seu perfil Minecraft Java 26.3.
+3. Abra seu perfil Forge 26.3 e selecione **Base Completa - Salao e Hortas** em **Um jogador**.
 
 Esta versão é uma cópia separada: não atualiza automaticamente um save no qual você já jogou. **Preserve o mundo anterior para manter seu progresso.**
 
@@ -51,8 +56,9 @@ O mundo usa blocos, entidades e datapack vanilla e foi testado no servidor ofici
 | Local | X | Y | Z |
 | --- | ---: | ---: | ---: |
 | Entrada de itens, dentro da casa | -769 | 64 | -301 |
-| Entrada da escada de pedra | -770 | 64 | -307 |
-| Baús de sobras (mesmo andar) | -790 | 48–50 | -303 |
+| Entrada da escada de pedra | -775 | 64 | -309 |
+| Centro do salão | -764 | 49 | -307 |
+| Baús de sobras (parede norte) | -765 | 49–51 | -322 |
 | Entrada da casa de lava | -800 | 64 | -318 |
 | Tapete para coletar lava | -810 | 64 | -312 |
 | Alavanca de pausa | -818 | 64 | -319 |
@@ -71,7 +77,9 @@ Fique perto da base para manter as farms carregadas. Preserve aldeões, composte
 
 ## Validação
 
-O depósito visual foi testado no jogo com uma amostra de cada um dos 200 tipos, pelas duas metades do baú de entrada. Todos chegaram aos armários corretos. Um teste contínuo adicional separou 64 pedras, 64 pedregulhos, 16 ovos e 16 pérolas. Itens nomeados e uma picareta encantada passaram por todas as curvas e chegaram às sobras com seus componentes preservados. Com um destino e seu buffer cheios, 64 unidades excedentes foram para as sobras enquanto 64 unidades do item vizinho foram separadas; os outros 199 filtros mantiveram suas reservas. Os 200 quadros permaneceram presos aos armários. A versão foi salva e reaberta: o primeiro e o último filtro, as sobras e os quadros continuaram funcionando; o ejetor parou quando a entrada ficou vazia. Os itens de teste foram removidos e os 144 ovos repostos antes da entrega. Iluminação, altura da escada e espaço sobre as duas metades de todos os baús foram conferidos.
+O salão foi testado com uma amostra de cada um dos 200 tipos, pelas duas metades do baú de entrada. As duas fileiras funcionaram de forma independente. Um teste contínuo adicional separou 64 pedras, 64 pedregulhos, 16 ovos e 16 pérolas. Ferramentas encantadas e itens nomeados chegaram às sobras com seus componentes preservados. Com um destino e seu buffer cheios, 64 unidades excedentes foram encaminhadas às sobras enquanto o item vizinho foi separado normalmente; os outros 199 filtros mantiveram suas reservas. Os 200 quadros ficaram estáveis e a visão de todos eles foi conferida a partir do centro. Escada, iluminação e acesso aos baús também foram verificados. O mundo foi salvo e reaberto: o primeiro e o último filtro, as sobras e os quadros continuaram funcionando. Os itens de teste foram retirados e os 144 ovos repostos antes da entrega.
+
+Após a reforma das hortas, mais de um dia do jogo confirmou produção de cenouras, batatas e trigo. Os 79 canteiros de cenoura, 79 de batata e 73 de trigo permaneceram intactos; os mecanismos conservaram suas posições e todos os aldeões continuaram com vida completa. A luminosidade dos cultivos permaneceu suficiente para crescer.
 
 A esteira foi testada em quatro voltas manuais, com conferência de cada empurrão, e em nove testes automáticos de partida e pausa. Um caldeirão marcado chegou à janela de coleta. Em 30.000 ticks naturais, 30 caldeirões encheram; os caldeirões cheios mantiveram a lava durante o transporte. A casa foi conferida após atualizar a iluminação: nenhuma das 348 posições de piso livre ficou sem luz. O mundo foi salvo e reaberto, e o circuito voltou a circular sem precisar de um novo pulso manual. Uma carga de 144 ovos foi consumida durante o teste e produziu frango assado; os nove slots foram reabastecidos antes da entrega.
 
@@ -82,6 +90,8 @@ A versão completa corrigida também foi salva e reaberta: o datapack continuou 
 Sobrevivência, dificuldade normal, comandos desativados. Seed: `2751751648501333327`. Instruções completas no `LEIA-ME.txt` dentro do ZIP.
 
 ## Versões anteriores
+
+- [Depósito anterior em galerias, com quadros](mapas/Mapa_Minecraft_26.3_Base_Completa_Deposito_Visual.zip)
 
 - [Depósito anterior, em dois andares e com placas](mapas/Mapa_Minecraft_26.3_Base_Completa_Deposito.zip)
 
